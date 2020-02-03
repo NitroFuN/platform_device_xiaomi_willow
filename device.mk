@@ -187,13 +187,18 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    libc2dcolorconvert \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
+    libOmxCore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
+    libOmxVdec \
+    libOmxVenc \
     libOmxG711Enc \
-    libplatformconfig
+    libplatformconfig \
+    libstagefrighthw
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -395,6 +400,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
     android.hardware.radio.config@1.1 \
     android.hardware.secure_element@1.0 \
+    librmnetctl \
     libxml2 \
     libprotobuf-cpp-full
 
